@@ -16,5 +16,5 @@ module.exports = function () {
             package: config.plugin.name + ' ' + config.plugin.version
         }))
         .pipe(gulp.dest('languages/' + config.plugin.textdomain + '.pot'))
-        .pipe(notify({message: config.messages.i18n}));
+        .pipe(notify({message: config.messages.i18n + config.plugin.textdomain + '.pot'}));
 };
