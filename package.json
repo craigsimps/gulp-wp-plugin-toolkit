@@ -1,0 +1,34 @@
+{
+  "name": "gulp-wp-plugin-toolkit",
+  "homepage": "https://github.com/craigsimps/gulp-wp-plugin-toolkit",
+  "author": "Craig Simpson <craig@craigsimpson.scot>",
+  "version": "1.0.0",
+  "description": "Set of configurable Gulp tasks for use in WordPress plugins.",
+  "repository": "https://github.com/craigsimps/gulp-wp-plugin-toolkit.git",
+  "license": "MIT",
+  "main": "index.js",
+  "engines": {
+    "node": ">=6"
+  },
+  "dependencies": {
+    "autoprefixer": "^8.0.0",
+    "css-mqpacker": "^6",
+    "cssnano": "^3.8.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-if": "^2.0.2",
+    "gulp-notify": "^3.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^7",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^4.0.0",
+    "gulp-sass-bulk-import": "^1.0.1",
+    "gulp-sort": "^2.0.0",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-uglify": "^3",
+    "gulp-wp-pot": "^2.0.3",
+    "lodash.map": "^4.6.0",
+    "lodash.merge": "^4.6.0",
+    "postcss-pxtorem": "^4.0.0"
+  }
+}
