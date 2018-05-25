@@ -6,7 +6,7 @@ module.exports = {
         i18n: 'Translation file generated: ',
         js: 'JavaScript task complete: <%= file.relative %>'
     },
-    plugin: {},
+    project: {},
     scss: {},
     js: {}
 };

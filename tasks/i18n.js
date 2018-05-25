@@ -12,9 +12,9 @@ module.exports = function () {
         .pipe(plumber())
         .pipe(sort())
         .pipe(potgen({
-            domain: config.plugin.textdomain,
-            package: config.plugin.name + ' ' + config.plugin.version
+            domain: config.project.textdomain,
+            package: config.project.name + ' ' + config.project.version
         }))
-        .pipe(gulp.dest('languages/' + config.plugin.textdomain + '.pot'))
-        .pipe(notify({message: config.messages.i18n + config.plugin.textdomain + '.pot'}));
+        .pipe(gulp.dest('languages/' + config.project.textdomain + '.pot'))
+        .pipe(notify({message: config.messages.i18n + config.project.textdomain + '.pot'}));
 };
