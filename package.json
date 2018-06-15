@@ -2,7 +2,7 @@
   "name": "gulp-wp-plugin-toolkit",
   "homepage": "https://github.com/craigsimps/gulp-wp-plugin-toolkit",
   "author": "Craig Simpson <craig@craigsimpson.scot>",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Set of configurable Gulp tasks for use in WordPress plugins.",
   "repository": "https://github.com/craigsimps/gulp-wp-plugin-toolkit.git",
   "license": "MIT",

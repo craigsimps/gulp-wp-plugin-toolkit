@@ -4,7 +4,7 @@ const gulp = require('gulp'),
     config = require('../config');
 
 module.exports = function () {
-    gulp.watch(config.src.scss, ['build:css']);
-    gulp.watch(config.src.js, ['build:js']);
-    gulp.watch(config.src.php, ['build:i18n']);
+    gulp.watch(config.project.watch.scss, ['build:css']);
+    gulp.watch(config.project.watch.js, ['build:js']);
+    gulp.watch(config.project.watch.php, ['build:i18n']);
 };
