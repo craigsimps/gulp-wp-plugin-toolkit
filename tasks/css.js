@@ -6,7 +6,6 @@ const gulp = require('gulp'),
     sourcemap = require('gulp-sourcemaps'),
     sass = require('gulp-sass'),
     postcss = require('gulp-postcss'),
-    bulksass = require('gulp-sass-bulk-import'),
     mqpacker = require('css-mqpacker'),
     autoprefix = require('autoprefixer'),
     pxtorem = require('postcss-pxtorem'),
@@ -55,7 +54,6 @@ module.exports = function () {
         };
 
         return gulp.src(outputConfig.src)
-            .pipe(bulksass())
             .pipe(plumber())
             .pipe(rename(outputFilename + '.css'))
             .pipe(gulpif(createSourceMap, sourcemap.init()))
