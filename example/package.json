@@ -1,0 +1,10 @@
+{
+  "name": "example-plugin",
+  "author": "Craig Simpson <craig@craigsimpson.scot>",
+  "repository": "https://github.com/craigsimps/example-plugin",
+  "version": "1.0.0",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-wp-plugin-toolkit": "^1.0.0"
+  }
+}
