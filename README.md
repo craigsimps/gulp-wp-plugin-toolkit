@@ -120,4 +120,4 @@ toolkit.extendConfig({
 toolkit.extendTasks(gulp, { /* Gulp task overrides. */ });
 ```
 
-Like [Gulp WP Toolkit](https://github.com/craigsimps/gulp-wp-toolkit), all of the configuration can be overridden, and additional tasks can be added by passing an object to the toolkit.extendTasks() function, where the key is the name of the task. [Example](https://github.com/craigsimps/gulp-wp-toolkit/blob/master/example/Gulpfile.js)
+Like [Gulp WP Toolkit](https://github.com/craigsimps/gulp-wp-toolkit), all of the configuration can be overridden, and additional tasks can be added by passing an object to the `toolkit.extendTasks()` function, where the key is the name of the task. [Example](https://github.com/craigsimps/gulp-wp-toolkit/blob/master/example/Gulpfile.js)
